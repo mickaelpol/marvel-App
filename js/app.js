@@ -46,7 +46,7 @@ $(document).ready(function(){ // chargement de la page
 					
 					// affichage du tableau avec concacténation des infos
 					// affichage de l'id du nom de l'image de la description du nombres de comics de stories et de series
-					$('#entete').html('<tr>' + '\
+					$('#entete').append('<tr>' + '\
 						<th class="text-uppercase">id</th>' + '\
 						<th class="text-uppercase">image</th>' + '\
 						<th class="text-uppercase">Nom</th>' + '\
