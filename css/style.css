@@ -1,0 +1,14 @@
+body {
+	margin:0;
+	padding:0;
+	font-size: 16px;
+	font-family: serif;
+}
+img {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+td {
+	width: 100px;
+}
