@@ -3,12 +3,37 @@ body {
 	padding:0;
 	font-size: 16px;
 	font-family: serif;
+	color: black;
+}
+table {
+	margin-top: 1.2em;
+}
+.page {
+	margin-top: 1.2em;
+	margin-bottom: 1.2em;
+}
+.pageA:hover {
+	box-shadow: 1px 1px 15px black;
+}
+.nom {
+	width: 100px;
 }
 img {
 	width: 60px;
 	height: 60px;
-	border-radius: 50%;
+	border-radius: 50px;
 }
-td {
-	width: 100px;
+.description {
+	width: 40%;
+}
+.table-hover > tbody > tr:hover {
+	background-color: #337AB7;
+	color: white;
+}
+thead {
+	color: white;
+	background-color: #3d3535;
+}
+tbody {
+	box-shadow: 1px 5px 20px black;
 }
