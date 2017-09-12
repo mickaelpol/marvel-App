@@ -10,9 +10,13 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <!-- Titre de la page -->
+
   <div class="container-fluid bg-primary">
     <h1 class="text-center text-uppercase page-header">marvel heroes</h1>
   </div>
+
+  <!-- boutons de choix alphabetique -->
 
   <div class="container">
     <div class="text-center">
@@ -20,10 +24,16 @@
     </div>
   </div>
 
+    <!-- Fin boutons de choix alphabetique -->
+
+    <!-- Début liste contenant les infos des heros marvel + tableau  -->
+
   <div class="container">
     <div id="liste">
 
       <table class="table table-striped table-bordered table-hover">
+
+        <!-- En tête du tableau généré en Js -->
 
         <thead>
           <tr>
@@ -36,17 +46,27 @@
             <th class="text-uppercase">Nb Series</th>
           </tr>
         </thead>
+        <!-- Fin des en tête du tableau -->
+
+        <!-- Corp du tableau en Js -->
 
         <tbody id="tableau" class="list"></tbody>
+        <!-- Fin du Corp du tableau en Js -->
 
       </table>
+      <!-- Fin liste contenant les infos des heros marvel + tableau -->
+
+
+      <!-- Début de la pagination -->
 
       <div class="text-center">
         <ul class="pagination"></ul>
       </div>
+      <!-- Fin de la pagination -->
 
     </div>
   </div>
+  <!-- Fin liste contenant les infos des heros marvel + tableau  -->
 
 
 
