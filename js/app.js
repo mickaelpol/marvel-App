@@ -46,6 +46,15 @@ $(document).ready(function(){ // chargement de la page
 					
 					// affichage du tableau avec concacténation des infos
 					// affichage de l'id du nom de l'image de la description du nombres de comics de stories et de series
+					$('#entete').html('<tr>' + '\
+						<th class="text-uppercase">id</th>' + '\
+						<th class="text-uppercase">image</th>' + '\
+						<th class="text-uppercase">Nom</th>' + '\
+						<th class="text-uppercase">Description</th>' + '\
+						<th class="text-uppercase">Nb Comics</th>' + '\
+						<th class="text-uppercase">Nb Stories</th>' + '\
+						<th class="text-uppercase">Nb Series</th>' + '\
+						</tr>');
 					$('#tableau').append('\
 						<tr class="hero">'+ '\
 						<td class="name">'+ id +'</td>'+'\
